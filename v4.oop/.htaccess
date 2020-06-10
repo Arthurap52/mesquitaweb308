@@ -14,7 +14,7 @@ RewriteEngine on
 
 # set your rewrite base
 # Edit this in your init method too if you script lives in a subfolder
-#RewriteBase C:\wamp64\www\php\v4.oop
+#RewriteBase /php/v4.oop/v4.oop/
 RewriteBase /
 
 
