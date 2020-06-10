@@ -1,9 +1,9 @@
 <?php
 
-//if (!isset($magic) or !defined($magic)){
- // http_response_code(404); 
- // die("404 Not Found"); 
-//}; 
+if (!isset($magic) or !defined($magic)){
+  http_response_code(404); 
+  die("404 Not Found"); 
+}; 
 
 // Singleton to connect db.
 abstract class DbSingleton {
